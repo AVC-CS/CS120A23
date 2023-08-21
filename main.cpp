@@ -3,20 +3,16 @@
 using namespace std;
 int main()
 {
-  const double tax = 6.75;
-  const double tip = 20;
-  double mealcharge = 88.67;
-  double tipamount;
-  double taxamount;
-  double total;
+  const int regular_hours = 40;
+  const int work_hours = 50;
+  const double overtime_rate = 27.78;
+  const double regular_rate = 18.25;
+  double total_wage;
 
   /* ************************************
     Code your program here
   ************************************ */
 
   cout << setprecision(2) << fixed;
-  cout << "Meal Cost: " << mealcharge << endl;
-  cout << "Tax Amount: " << taxamount << endl;
-  cout << "Tip Amount: " << tipamount << endl;
-  cout << "Total Amount: " << total << endl;
+  cout << "Total wage is: " << total_wage << endl;
 }
